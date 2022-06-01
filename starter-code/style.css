@@ -99,7 +99,6 @@ p {
     margin: 0.6em;
     top: 13em;
     left: 0.9em;
-    filter: opacity(0.9) drop-shadow(5em, 5em, 5em, red);
 
 }
 
@@ -118,25 +117,42 @@ p {
 .google {
     height: 0.7em;
     top: 12.9em;
-
+    left: 1em
 }
 
-/*.pocket {
-
-}*/
-
-
-/* .main:before {
-    content: "";
+.input {
     position: absolute;
-    left: 0; 
-    right: 0;
-    top: 0; 
-    bottom: 0;
-    background: #121725;
-    opacity: 80%;
-    z-index: 1;
-  } */
+    display: inline-block;
+    top: 41vh;
+    left: 2vh;
+    width: 14.5vw;
+    height: 3.7vh;
+    border-radius: 20px;
+    background-color: #2C344B;
+    color: grey;
+    text-indent: 1.5rem;
+    font-weight: 700;
+}
+
+.button {
+    position: absolute;
+    display: block;
+    background-color: #54E6AF;
+    bottom: 6.8vh;
+    left: 2vh;
+    width: 14.5vw;
+    height: 3.7vh;
+    border-radius: 2em;
+    font-weight: 700;
+}
+
+.button:hover {
+    cursor: pointer;
+    width: 14.8vw;
+    height: 4vh;
+    bottom: 6.5vh;
+    left: 1.7vh;
+}
 
 
 /* @media screen and (max-width: 480px) {

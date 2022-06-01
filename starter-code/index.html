@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
@@ -18,9 +18,12 @@
       Apple Podcasts, Google Podcasts, Pocket <br> Casts and more!
     </p></div>
     <div class="content logos"><img class="content logos spotify" src="assets/desktop/spotify.svg" alt=""><img class="content logos apple" src="assets/desktop/apple-podcast.svg" alt=""><img class="content logos google" src="assets/desktop/google-podcasts.svg" alt=""> <img class="content logos pocket" src="assets/desktop/pocket-casts.svg" alt=""></div>
-    <div class="content form">
-      <div class="content button"><button>Request access</button></div>
-    </div>
+      <div class="content form">
+        <form class="content form email" name="form" action="/README.md" onsubmit="return requestAccess()" method="get">
+          <input class="content form email input" name="request" type="text" value="Email address">
+          <input class="content button request" type="submit" value="Request Access">
+        </form>
+      </div>
 </div>
 </body>
 </html>
